@@ -8,7 +8,8 @@ const resources = {
       "language-selection-title": "Please select your preferred language from the options below.",
       "soft-skills-selection-header-stage": "Soft Skills",
       "hard-skills-selection-header-stage": "Hard Skills",
-      "result-header-stage": "Result"
+      "result-header-stage": "Result",
+      "next-button-text": "Next"
     }
   },
   pt: {
@@ -17,7 +18,8 @@ const resources = {
       "language-selection-title": "Por favor selecione a linguagem de sua preferência nas opções abaixo.",
       "soft-skills-selection-header-stage": "Soft Skills",
       "hard-skills-selection-header-stage": "Hard Skills",
-      "result-header-stage": "Resultado"
+      "result-header-stage": "Resultado",
+      "next-button-text": "Próximo"
     }
   }
 };

@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 30px;
-    padding: 10px;
+    padding: 40px 10px;
 
     @include apply-styles-for-multiple-devices(smartphone, tablet) {
         margin: 30px auto;
@@ -79,14 +79,14 @@
         border-radius: 5px;
         border: none;
         color: $white;
+        cursor: pointer;
         font-family: "Inter", sans-serif;
+        font-size: 1.1rem;
         font-weight: bold;
         height: 45px;
         margin-top: 30px;
-        width: 170px;
-        font-size: 1.1rem;
-        cursor: pointer;
         transition: 0.3s ease-in-out;
+        width: 170px;
 
         &:hover {
             background-color: $details-hover;

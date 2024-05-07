@@ -38,6 +38,8 @@ export default function LanguageSelection() {
             </button>
         </div>
 
-        <button className="next-stage-button" onClick={() => setStage('soft-skills')}>Next</button>
+        <button className="next-stage-button" onClick={() => setStage('soft-skills')}>
+            {t('next-button-text')}
+        </button>
     </main>
 }

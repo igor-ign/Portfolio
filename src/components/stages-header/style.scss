@@ -29,6 +29,11 @@
             gap: 40px;
             justify-content: space-between;
 
+            @include smartphone {
+                width: 90%;
+            }
+    
+
             > .header-stage-container {
                 align-items: center;
                 display: flex;
