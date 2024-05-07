@@ -2,13 +2,9 @@
   "compilerOptions": {
     "baseUrl": "./src",
     "paths": {
-      "@context": ["context"],
-      "@types": ["types"],
-      "@styles": ["styles"],
-      "@components": ["components"],
-      "@sections": ["@sections"]
+      "@/*": ["/*"],
     },
-    "target": "es5",
+    "target": "es6",
     "lib": [
       "dom",
       "dom.iterable",

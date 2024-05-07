@@ -1,1 +1,1 @@
-export { StageProvider } from './stage'
+export { StageProvider, StageContext } from './stage'

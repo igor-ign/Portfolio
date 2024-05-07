@@ -1,1 +1,1 @@
-export type { StageTypes, StageContextProps } from './stage-context'
+export type { StageTypes, StageContextProps, PortfolioStagesConstantProps } from './stage-context'

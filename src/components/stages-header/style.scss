@@ -1,0 +1,56 @@
+@import "../../styles/index.scss";
+
+.stages-header-container {
+    color: white;
+
+    progress {
+        border-radius: 0;
+        height: 3px;
+        width: 110px;
+    }
+
+    progress::-webkit-progress-value  {
+        background-color: $details;
+    }
+
+    > .stages-list {
+        align-items: center;
+        display: flex;
+        gap: 40px;
+        justify-content: space-between;
+
+        @include apply-styles-for-multiple-devices(smartphone, tablet) {
+            flex-direction: column;
+        }
+
+        > .stage {
+            align-items: center;
+            display: flex;
+            gap: 40px;
+            justify-content: space-between;
+
+            > .header-stage-container {
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                text-align: center;
+                width: 80px;
+
+                > .stage-number {
+                    background-color: $secondary;
+                    border-radius: 20px;
+                    display: grid;
+                    height: 35px;
+                    place-items: center;
+                    width: 35px;
+    
+                    &.current {
+                        border: 2px solid $details;
+                        color: $details;
+                    }
+                }
+            }
+        }
+    }
+}
