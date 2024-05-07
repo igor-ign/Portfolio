@@ -1,0 +1,95 @@
+@import '../../styles/index.scss';
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
+
+.language-selection-container {
+    align-items: center;
+    background-color: $secondary;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 10px;
+
+    @include apply-styles-for-multiple-devices(smartphone, tablet) {
+        margin: 30px auto;
+        max-width: 90%;
+    }
+
+    > .language-selection-header {
+        align-items: center;
+        display: flex;
+        gap: 20px;
+
+        > .language-selection-title {
+            color: $white;
+            font-size: 1.5rem;
+        }
+    }
+
+    > .language-selection-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: space-evenly;
+        margin-top: 30px;
+
+        > .language-selection-button {
+            align-items: center;
+            background-color: $secondary-light;
+            border-radius: 5px;
+            border: none;
+            color: $white;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            font-family: "Inter", sans-serif;
+            font-size: 1.1rem;
+            font-weight: bold;
+            gap: 5px;
+            height: 160px;
+            justify-content: center;
+            transition: 0.3s ease-in-out;
+            width: 170px;
+
+            &.selected {
+                background-color: $secondary-lighter;
+                border: 2px solid $details;   
+            }
+
+            &:hover {
+                background-color: $secondary-lighter;
+                border: 2px solid $details;
+            }
+
+            > .country-name {
+                color: $secondary-super-light;
+                font-size: 1rem;
+                font-weight: normal;
+            }
+        }
+    }
+
+    > .language-selection-content, .language-selection-header {
+        max-width: 90%;
+        width: 700px;
+    }
+
+    > .next-stage-button {
+        background-color: $details;
+        border-radius: 5px;
+        border: none;
+        color: $white;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        height: 45px;
+        margin-top: 30px;
+        width: 170px;
+        font-size: 1.1rem;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+            background-color: $details-hover;
+        }
+    }
+}

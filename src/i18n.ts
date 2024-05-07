@@ -5,6 +5,7 @@ const resources = {
   en: {
     translation: {
       "language-selection-header-stage": "Language",
+      "language-selection-title": "Please select your preferred language from the options below.",
       "soft-skills-selection-header-stage": "Soft Skills",
       "hard-skills-selection-header-stage": "Hard Skills",
       "result-header-stage": "Result"
@@ -13,6 +14,7 @@ const resources = {
   pt: {
     translation: {
       "language-selection-header-stage": "Linguagem",
+      "language-selection-title": "Por favor selecione a linguagem de sua preferência nas opções abaixo.",
       "soft-skills-selection-header-stage": "Soft Skills",
       "hard-skills-selection-header-stage": "Hard Skills",
       "result-header-stage": "Resultado"
