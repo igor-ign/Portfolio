@@ -1,0 +1,11 @@
+@import './styles/index.scss';
+
+.app-content {
+    margin: 100px auto;
+    max-width: 100%;
+    width: 900px;
+
+    @include smartphone {
+        margin: 50px auto;
+    }
+}
