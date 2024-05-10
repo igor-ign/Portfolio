@@ -9,7 +9,7 @@ export default function HardSkillsSelection() {
         <h1 className="hard-skills-selection-title">{t('hard-skills-selection-title')}</h1>
         <CheckboxForm 
         options={['HTML', 'CSS', 'Javascript', 'ReactJS', 'SASS', 'Typescript', 'NextJS', 'CI/CD']} 
-        sectionToRedirect='result'
+        stageToRedirect='result'
         />
     </main>
 }

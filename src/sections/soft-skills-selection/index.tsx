@@ -30,7 +30,7 @@ export default function SoftSkillsSelection() {
         <h1 className="soft-skills-selection-title">{t('soft-skills-selection-title')}</h1>
         <CheckboxForm 
         options={SOFT_SKILLS_OPTIONS[i18n.language as keyof typeof SOFT_SKILLS_OPTIONS]} 
-        sectionToRedirect='hard-skills'
+        stageToRedirect='hard-skills'
         />
     </main>
 }
