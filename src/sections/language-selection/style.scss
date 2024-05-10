@@ -1,14 +1,8 @@
-@import '../../styles/index.scss';
+@import 'styles';
 @import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
 
 .language-selection-container {
-    align-items: center;
-    background-color: $secondary;
-    border-radius: 3px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
-    padding: 40px 10px;
+    @include section-container-config;
 
     @include apply-styles-for-multiple-devices(smartphone, tablet) {
         margin: 30px auto;
@@ -21,8 +15,7 @@
         gap: 20px;
 
         > .language-selection-title {
-            color: $white;
-            font-size: 1.5rem;
+            @include section-title-config;
         }
     }
 
@@ -72,24 +65,5 @@
     > .language-selection-content, .language-selection-header {
         max-width: 90%;
         width: 700px;
-    }
-
-    > .next-stage-button {
-        background-color: $details;
-        border-radius: 5px;
-        border: none;
-        color: $white;
-        cursor: pointer;
-        font-family: "Inter", sans-serif;
-        font-size: 1.1rem;
-        font-weight: bold;
-        height: 45px;
-        margin-top: 30px;
-        transition: 0.3s ease-in-out;
-        width: 170px;
-
-        &:hover {
-            background-color: $details-hover;
-        }
     }
 }

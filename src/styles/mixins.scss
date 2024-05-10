@@ -1,3 +1,18 @@
+@mixin section-container-config {
+  align-items: center;
+  background-color: $secondary;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  padding: 40px 30px;
+}
+
+@mixin section-title-config {
+  color: $white;
+  font-size: 1.5rem;
+}
+
 @mixin smartphone {
     @media (max-width: 480px) {
       @content;

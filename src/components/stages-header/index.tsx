@@ -10,6 +10,8 @@ export default function StagesHeader() {
     const { stage } = useContext(StageContext)
     const isNotebookOrDesktop = useMediaQuery('(min-width:1100px)')
 
+    const middleProgressBarValue = stage !== 'language' && stage !== 'soft-skills' ? 1 : 0
+
     function getStageNumberElementClassname(elementStage: StageTypes) {
         const isElementCurrentStage = stage === elementStage
 
@@ -26,7 +28,7 @@ export default function StagesHeader() {
                     <div className={getStageNumberElementClassname('language')}>1</div>
                 </div>
                 <progress 
-                value={stage === 'soft-skills' ? 1 : 0}  
+                value={stage !== 'language'  ? 1 : 0}  
                 max="1"
                 >
                 </progress>
@@ -38,8 +40,7 @@ export default function StagesHeader() {
             {
                 isNotebookOrDesktop &&
                 <progress 
-                value={stage === 'hard-skills' ? 1 : 0} 
-                className={stage === 'hard-skills' ? 'full' : ''} 
+                value={middleProgressBarValue} 
                 max="1"
                 >
                 </progress>
