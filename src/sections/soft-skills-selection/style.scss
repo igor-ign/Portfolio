@@ -1,0 +1,9 @@
+@import 'styles';
+
+.soft-skills-selection-container {
+    @include section-container-config; 
+
+    > .soft-skills-selection-title {
+        @include section-title-config;
+    }
+}

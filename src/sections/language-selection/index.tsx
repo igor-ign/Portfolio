@@ -1,13 +1,11 @@
-import { useContext } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Language } from '@mui/icons-material'
 import { IMAGES } from 'assets'
-import { StageContext } from 'context'
+import { Button } from 'components'
 import './style.scss'
 
 export default function LanguageSelection() {
     const { t, i18n } = useTranslation()
-    const { setStage } = useContext(StageContext)
     
     function getLanguageSelectionButtonClassname(buttonLanguage: 'pt' | 'en') {
         const currentLanguage = i18n.language
@@ -38,8 +36,6 @@ export default function LanguageSelection() {
             </button>
         </div>
 
-        <button className="next-stage-button" onClick={() => setStage('soft-skills')}>
-            {t('next-button-text')}
-        </button>
+        <Button isDisabled={false} stageToRedirect='soft-skills' text={t('next-button-text')}/>
     </main>
 }

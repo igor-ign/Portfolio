@@ -1,10 +1,10 @@
-import { LanguageSelection } from "sections";
+import { LanguageSelection, SoftSkillsSelection } from "sections";
 import { PortfolioStagesConstantProps } from "types";
 
 
 export const PORTIFOLIO_STAGES: PortfolioStagesConstantProps = {
     language: <LanguageSelection />,
-    "soft-skills": <></>,
+    "soft-skills": <SoftSkillsSelection />,
     "hard-skills": <></>,
     result: <></>
 }
