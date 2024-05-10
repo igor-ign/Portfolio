@@ -4,7 +4,7 @@ import './style.scss'
 import Button from 'components/button';
 import { useTranslation } from 'react-i18next';
 
-export default function CheckboxForm({ options }: CheckboxFormProps) {
+export default function CheckboxForm({ options, sectionToRedirect }: CheckboxFormProps) {
     const [selectedOptions, setSelectedOptions] = useState<string[]>([]);
 
     const { t } = useTranslation()
@@ -33,6 +33,6 @@ export default function CheckboxForm({ options }: CheckboxFormProps) {
                     </li>
                 ))}
         </ul>
-        <Button isDisabled={!selectedOptions.length} stageToRedirect='hard-skills' text={t('next-button-text')} alignSelf='center' />
+        <Button isDisabled={!selectedOptions.length} stageToRedirect={sectionToRedirect} text={t('next-button-text')} alignSelf='center' />
     </form>
 }

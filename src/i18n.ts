@@ -9,6 +9,7 @@ const resources = {
       "soft-skills-selection-header-stage": "Soft Skills",
       "soft-skills-selection-title": "When seeking a front-end developer, what soft skills are you looking for?",
       "hard-skills-selection-header-stage": "Hard Skills",
+      "hard-skills-selection-title": "When seeking a front-end developer, which hard skills you are looking for?",
       "result-header-stage": "Result",
       "next-button-text": "Next"
     }
@@ -18,8 +19,9 @@ const resources = {
       "language-selection-header-stage": "Linguagem",
       "language-selection-title": "Por favor selecione a linguagem de sua preferência nas opções abaixo.",
       "soft-skills-selection-header-stage": "Soft Skills",
-      "soft-skills-selection-title": "Quando você está procurando por um desenvolvedor front-end, quais soft-skills você busca?",
+      "soft-skills-selection-title": "Quando você está procurando por um desenvolvedor front-end, quais soft skills você busca?",
       "hard-skills-selection-header-stage": "Hard Skills",
+      "hard-skills-selection-title": "Quando você está procurando por um desenvolvedor front-end, quais hard skills você busca?",
       "result-header-stage": "Resultado",
       "next-button-text": "Próximo"
     }

@@ -1,0 +1,9 @@
+@import 'styles';
+
+.hard-skills-selection-container {
+    @include section-container-config; 
+    
+    > .hard-skills-selection-title {
+        @include section-title-config;
+    }
+}
