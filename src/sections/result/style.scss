@@ -8,7 +8,7 @@
 .result-section-container {
     margin-top: 50px;
     padding: 25px;
-    
+
     > .result-initial-text {
         @include default-text-config;
     }
@@ -113,6 +113,65 @@
                     display: inline-block;
                     text-align: center;
                     width: 150px;
+                }
+            }
+        }
+
+        > .technical-skills-section {
+            color: $white;
+
+            > .skills-section-title {
+                color: $white;
+                font-size: 2.3rem;
+                font-weight: bold;
+                text-align: center;
+                margin-bottom: 40px;
+            }
+
+            > .skills-list {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 40px;
+
+                > .skill {
+                    align-items: center;
+                    background-color: $secondary;
+                    border-radius: 3px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    padding: 15px;
+                    width: 250px;
+
+                    > .skill-info {
+                        align-items: center;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+
+                        > .technology-icon {
+                            border-radius: 5px;
+                            height: 80px;
+                            width: 80px;
+                        }
+
+                        > .skill-name {
+                            display: block;
+                            text-align: center;
+                            width: 95px;
+                        }
+                    }
+
+                    > .skill-level {
+                        align-items: center;
+                        display: flex;
+                        flex-direction: column;
+
+                        > .skill-level-text {
+                            font-weight: bold;
+                        }
+                    }
                 }
             }
         }

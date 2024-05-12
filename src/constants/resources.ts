@@ -18,6 +18,10 @@ export const TRANSLATION_RESOURCES = {
         "experience-text": "Of Experience in the field",
         "projects-title": "3 Projects",
         "projects-text": "In which I have participated",
+        "skill-section-title": "My Skills",
+        "basic-skill-level": "Basic",
+        "intermediate-skill-level": "Intermediate",
+        "expert-skill-level": "Expert",
         "next-button-text": "Next"
       }
     },
@@ -40,7 +44,11 @@ export const TRANSLATION_RESOURCES = {
         "experience-text": "De experiência como desenvolvedor",
         "projects-title": "3 Projetos",
         "projects-text": "Onde participei com meu trabalho",
-        "next-button-text": "Próximo"
+        "skill-section-title": "Minhas Habilidades",
+        "basic-skill-level": "Básico",
+        "intermediate-skill-level": "Intermediário",
+        "expert-skill-level": "Especialista",
+        "next-button-text": "Próximo",
       }
     }
   };
