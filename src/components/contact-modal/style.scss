@@ -1,0 +1,97 @@
+@import 'styles';
+
+.modal-container {
+    align-items: center;
+    background-color: $modal-container-background;
+    display: flex;
+    height: 100dvh;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+
+    > .modal-content {
+        background-color: $secondary;
+        border-radius: 3px;
+        color: $white;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        padding: 15px;
+        width: 500px;
+
+        > .close-modal-button {
+            align-self: flex-end;
+            background: none;
+            border-radius: 20px;
+            border: none;
+            cursor: pointer;
+            transition: 0.2s ease-in-out;
+
+            &:hover {
+                background-color: $primary;
+            }
+        }
+
+        > .modal-title {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        > .communication-links-list {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            list-style: none;
+            margin-top: 30px;
+
+            > .communication-link {
+                align-items: center;
+                background-color: $details;
+                border-radius: 5px;
+                cursor: pointer;
+                display: flex;
+                height: 40px;
+                justify-content: center;
+                text-align: center;
+                transition: 0.2s ease-in-out;
+                width: 100%;
+
+                &:hover {
+                    background-color: $details-hover;
+                }
+
+                > .linkedin-link {
+                    align-items: center;
+                    color: $white;
+                    display: flex;
+                    font-family: "Inter", sans-serif;
+                    font-size: 1rem;
+                    font-weight: bold;
+                    gap: 20px;
+                    text-decoration: none;
+                }
+
+                > .email-button {
+                    align-items: center;
+                    background: none;
+                    border: none;
+                    color: $white;
+                    cursor: pointer;
+                    display: flex;
+                    flex-wrap: wrap;
+                    font-family: "Inter", sans-serif;
+                    font-size: 1rem;
+                    font-weight: bold;
+                    gap: 20px;
+                    justify-content: center;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

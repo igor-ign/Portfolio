@@ -6,7 +6,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources: TRANSLATION_RESOURCES,
-    lng: "en",
+    lng: "pt",
     interpolation: {
       escapeValue: false 
     }

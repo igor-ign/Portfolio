@@ -26,7 +26,10 @@ export const TRANSLATION_RESOURCES = {
         "projects-section-title": "Check Out Some of My Projects",
         "next-button-text": "Next",
         "github-button-text": "See On Github",
-        "coming-soon-projects-text": "More projects coming soon"
+        "coming-soon-projects-text": "More projects coming soon",
+        "contact-modal-title": "Contact",
+        "contact-modal-text": "I'm happy that you are interested in contacting me! If you want to send me a message, you can use the following means of communication:",
+        "copy-email-toast-text": "My E-mail was copied to your clipboard!"
       }
     },
     pt: {
@@ -56,7 +59,10 @@ export const TRANSLATION_RESOURCES = {
         "projects-section-title": "Meus Projetos",
         "next-button-text": "Próximo",
         "github-button-text": "Ver No Github",
-        "coming-soon-projects-text": "Mais projetos em breve"
+        "coming-soon-projects-text": "Mais projetos em breve",
+        "contact-modal-title": "Contato",
+        "contact-modal-text": "Fico feliz que você está interessado em falar comigo! Para me mandar uma mensagem você pode usar os seguintes meios de comunicação:",
+        "copy-email-toast-text": "Meu e-mail foi copiado para sua área de transferência!"
       }
     }
   };

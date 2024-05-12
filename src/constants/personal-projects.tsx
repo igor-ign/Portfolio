@@ -11,8 +11,8 @@ export const PROJECTS = [
     {
         name: 'Portifolio',
         images: [
-            <img alt={PORTIFOLIO_FIRST_IMAGE.alt} src={PORTIFOLIO_FIRST_IMAGE.image}/>,
-            <img alt={PORTIFOLIO_SECOND_IMAGE.alt} src={PORTIFOLIO_SECOND_IMAGE.image}/>
+            <img alt={PORTIFOLIO_FIRST_IMAGE.alt} src={PORTIFOLIO_FIRST_IMAGE.image} key={'image1'}/>,
+            <img alt={PORTIFOLIO_SECOND_IMAGE.alt} src={PORTIFOLIO_SECOND_IMAGE.image} key={'image2'}/>
         ],
         description: {
             pt: 'Como um desenvolvedor front-end apaixonado pelo que faz, criei este projeto de portfólio para destacar minhas habilidades e experiência na criação de websites criativos e intuitivos. Este projeto demonstra minha dedicação em entregar soluções de alta qualidade e criativas que superam expectativas já que decidi criar este portfólio em um formato que difere do portfólio médio de um desenvolvedor.',
@@ -23,8 +23,8 @@ export const PROJECTS = [
     {
         name: 'Maze White Label',
         images: [
-            <img alt={MAZE_CARS_IMAGE.alt} src={MAZE_CARS_IMAGE.image}/>,
-            <img alt={MAZE_MOTORCYCLE_IMAGE.alt} src={MAZE_MOTORCYCLE_IMAGE.image}/>
+            <img alt={MAZE_CARS_IMAGE.alt} src={MAZE_CARS_IMAGE.image} key={'image1'}/>,
+            <img alt={MAZE_MOTORCYCLE_IMAGE.alt} src={MAZE_MOTORCYCLE_IMAGE.image} key={'image2'}/>
         ],
         description: {
             pt: 'Maze é um website white-label versátil projetado para as marcas de venda de carros e motos da Maze. Com Maze Cars e Maze Motorcycles, os usuários podem explorar e selecionar veículos que estejam alinhados com suas preferências e necessidades.',
