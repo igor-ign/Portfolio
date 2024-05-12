@@ -11,10 +11,14 @@ import ReduxIcon from './redux.png'
 import SassIcon from './sass.png'
 import StyledComponentsIcon from './styled.png'
 import TypescriptIcon from './typescript.png'
+import PortifolioFirstImage from './portifolio.jpg'
+import PortifolioSecondImage from './portifolio2.jpg'
+import MazeCarImage from './mazecars.jpg'
+import MazeMotorcycleImage from './mazemotorcycle.jpg'
 
 export const IMAGES = {
     BRAZIL_FLAG: {
-        alt: 'Brazil Flag',
+        alt: 'Brazilian Flag',
         image: BrazilFlag
     },
     USA_FLAG: {
@@ -64,5 +68,21 @@ export const IMAGES = {
     TYPESCRIPT_ICON: {
         alt: 'Typescript Icon',
         image: TypescriptIcon
+    },
+    PORTIFOLIO_FIRST_IMAGE: {
+        alt: 'Portifolio Project',
+        image: PortifolioFirstImage
+    },
+    PORTIFOLIO_SECOND_IMAGE: {
+        alt: 'Portifolio Project',
+        image: PortifolioSecondImage
+    },
+    MAZE_CARS_IMAGE: {
+        alt: 'Maze Car Project',
+        image: MazeCarImage
+    },
+    MAZE_MOTORCYCLE_IMAGE: {
+        alt: 'Maze Motorcycle Project',
+        image: MazeMotorcycleImage
     }
 }

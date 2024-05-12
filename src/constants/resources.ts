@@ -1,6 +1,7 @@
 export const TRANSLATION_RESOURCES = {
     en: {
       translation: {
+        "portifolio-title": "Igor's Portifolio",
         "language-selection-header-stage": "Language",
         "language-selection-title": "Please select your preferred language from the options below.",
         "soft-skills-selection-header-stage": "Soft Skills",
@@ -22,11 +23,15 @@ export const TRANSLATION_RESOURCES = {
         "basic-skill-level": "Basic",
         "intermediate-skill-level": "Intermediate",
         "expert-skill-level": "Expert",
-        "next-button-text": "Next"
+        "projects-section-title": "Check Out Some of My Projects",
+        "next-button-text": "Next",
+        "github-button-text": "See On Github",
+        "coming-soon-projects-text": "More projects coming soon"
       }
     },
     pt: {
       translation: {
+        "portifolio-title": "Portifolio do Igor",
         "language-selection-header-stage": "Linguagem",
         "language-selection-title": "Por favor selecione a linguagem de sua preferência nas opções abaixo.",
         "soft-skills-selection-header-stage": "Soft Skills",
@@ -39,7 +44,7 @@ export const TRANSLATION_RESOURCES = {
         "about-me-text": "Olá! Sou um Desenvolvedor Front-end dedicado em criar websites cativantes e fáceis de usar. Atenção meticulosa aos detalhes e um compromisso em produzir código limpo e eficiente são marcas registradas do meu trabalho. Minha jornada em desenvolvimento web é alimentada por uma sede insaciável por conhecimento e uma enorme determinação em me manter atualizado sobre novas tecnologias e práticas. Adoro fazer parte de ambientes colaborativos onde posso usar minhas habilidades para contribuir de forma significativa e sempre estou buscando evoluir tanto como desenvolvedor quanto como indivíduo.",
         "contact-button-text": "Entrar em Contato",
         "users-affected-title": "2 Milhões",
-        "users-affected-text": "De usuários atingidos",
+        "users-affected-text": "De usuários atingidos pelo meu trabalho",
         "experience-title": "1.5 Anos",
         "experience-text": "De experiência como desenvolvedor",
         "projects-title": "3 Projetos",
@@ -48,7 +53,10 @@ export const TRANSLATION_RESOURCES = {
         "basic-skill-level": "Básico",
         "intermediate-skill-level": "Intermediário",
         "expert-skill-level": "Especialista",
+        "projects-section-title": "Meus Projetos",
         "next-button-text": "Próximo",
+        "github-button-text": "Ver No Github",
+        "coming-soon-projects-text": "Mais projetos em breve"
       }
     }
   };
