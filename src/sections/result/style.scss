@@ -1,0 +1,107 @@
+@import 'styles';
+
+@mixin default-text-config() {
+    color: $white;
+    font-size: 1.1rem;
+}
+
+.result-section-container {
+    margin-top: 50px;
+    overflow-y: scroll;
+    padding: 25px;
+    max-height: 80%;
+
+    &::-webkit-scrollbar {
+        width: 10px;
+    }      
+
+    &::-webkit-scrollbar-thumb {
+        background: $details; 
+
+        &:hover {
+            background: $details-hover; 
+        }
+    }
+
+    > .result-initial-text {
+        @include default-text-config;
+    }
+
+    > .result-content {
+        margin: 60px 0 40px 0;
+
+        > .about-me-section {
+            > .name {
+                color: $white;
+                font-size: 2.2rem;
+                font-weight: bold;
+            }
+
+            > .role {
+                color: $details;
+                display: inline-block;
+                font-size: 1.1rem;
+                margin: 5px 0 50px 0;
+            }
+
+            > .purple-bar {
+                background-color: $details;
+                height: 2px;
+                margin-bottom: 15px;
+                width: 80px;
+            }
+
+            > .about-me-text {
+                line-height: 1.6;
+
+                @include default-text-config;
+            }
+
+            > .contact-buttons {
+                align-items: center;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 40px;
+                margin-top: 20px;
+
+                > .social-media-contact-button, .github-button {
+                    background-color: $details;
+                    border-radius: 5px;
+                    border: none;
+                    color: $white;
+                    cursor: pointer;
+                    font-family: "Inter", sans-serif;
+                    font-size: 1rem;
+                    font-weight: bold;
+                    height: 50px;
+                    padding: 10px;
+                    transition: 0.3s ease-in-out;
+
+                    &:hover {
+                        background-color: $details-hover;
+                    }
+                }
+
+                > .social-media-contact-button {
+                    width: 200px;
+                }
+
+                > .github-button {
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                    width: 150px;
+
+                    > .github-link {
+                        align-items: center;
+                        color: $white;
+                        display: flex;
+                        gap: 10px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+      
+}
