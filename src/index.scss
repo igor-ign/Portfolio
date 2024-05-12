@@ -1,4 +1,4 @@
-@import './styles/index.scss';
+@import 'styles';
 @import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
 
 html {
@@ -14,4 +14,18 @@ html {
 body {
   background-color: $primary;
   font-family: "Inter", sans-serif;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }      
+
+  &::-webkit-scrollbar-thumb {
+    background: $details; 
+    border-radius: 10px;
+
+    &:hover {
+        background: $details-hover; 
+    }
+}
+
 }

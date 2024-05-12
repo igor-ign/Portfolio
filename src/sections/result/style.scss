@@ -7,22 +7,8 @@
 
 .result-section-container {
     margin-top: 50px;
-    overflow-y: scroll;
     padding: 25px;
-    max-height: 80%;
-
-    &::-webkit-scrollbar {
-        width: 10px;
-    }      
-
-    &::-webkit-scrollbar-thumb {
-        background: $details; 
-
-        &:hover {
-            background: $details-hover; 
-        }
-    }
-
+    
     > .result-initial-text {
         @include default-text-config;
     }
@@ -33,7 +19,7 @@
         > .about-me-section {
             > .name {
                 color: $white;
-                font-size: 2.2rem;
+                font-size: 2.3rem;
                 font-weight: bold;
             }
 
@@ -62,7 +48,7 @@
                 display: flex;
                 flex-wrap: wrap;
                 gap: 40px;
-                margin-top: 20px;
+                margin-top: 60px;
 
                 > .social-media-contact-button, .github-button {
                     background-color: $details;
@@ -99,6 +85,34 @@
                         gap: 10px;
                         text-decoration: none;
                     }
+                }
+            }
+        }
+
+        > .career-numbers-section {
+            color: $white;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 100px 0;
+
+            > .career-number {
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 170px;
+                margin: 20px 0;
+
+                > .number-title {
+                    font-size: 2rem;
+                    font-weight: bold;
+                }
+
+                > .number-text {
+                    display: inline-block;
+                    text-align: center;
+                    width: 150px;
                 }
             }
         }

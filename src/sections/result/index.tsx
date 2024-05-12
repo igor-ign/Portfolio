@@ -14,7 +14,7 @@ export default function ResultSection() {
 
                 <div className="purple-bar"></div>
                 <p className="about-me-text">{t('about-me-text')}</p>
-                
+
                 <div className="contact-buttons">
                     <button className="social-media-contact-button">{t('contact-button-text')}</button>
                     <button className='github-button'>
@@ -22,6 +22,21 @@ export default function ResultSection() {
                             <GitHub /> Github
                         </a>
                     </button>
+                </div>
+            </section>
+
+            <section className='career-numbers-section'>
+                <div className="career-number">
+                    <span className='number-title'>{t('users-affected-title')}</span>
+                    <span className='number-text'>{t('users-affected-text')}</span>
+                </div>
+                <div className="career-number">
+                    <span className='number-title'>{t('experience-title')}</span>
+                    <span className='number-text'>{t('experience-text')}</span>
+                </div>
+                <div className="career-number">
+                    <span className='number-title'>{t('projects-title')}</span>
+                    <span className='number-text'>{t('projects-text')}</span>
                 </div>
             </section>
         </article>
