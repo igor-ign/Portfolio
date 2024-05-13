@@ -3,7 +3,7 @@ import {
     LanguageSelection, 
     ResultSection, 
     SoftSkillsSelection 
-} from "sections";
+} from "stages";
 import { PortfolioStagesConstantProps } from "types";
 
 
