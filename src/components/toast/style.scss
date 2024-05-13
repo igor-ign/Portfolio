@@ -4,7 +4,6 @@
     background-color: $details;
     border-radius: 5px;
     color: $white;
-    height: 50px;
     padding: 10px;
     position: fixed;
     right: 10px;
@@ -14,7 +13,6 @@
     z-index: 4;
 
     @include smartphone {
-        height: 60px;
         right: 0;
         top: 0;
         width: 100%;
