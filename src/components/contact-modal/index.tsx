@@ -38,7 +38,7 @@ export default function ContactModal({ isModalOpen, handleClickCloseModal }: Con
                     rel="noreferrer"
                     className='linkedin-link'
                     >
-                        <LinkedIn /> Igor Ignácio
+                        <LinkedIn /> LinkedIn
                     </a>
                 </li>
                 <li className="communication-link">
@@ -46,7 +46,7 @@ export default function ContactModal({ isModalOpen, handleClickCloseModal }: Con
                     className='email-button' 
                     onClick={handleClickEmailButton}
                     >
-                        <Email /> igor.ignacio.contact@gmail.com
+                        <Email /> E-mail
                     </button>
                 </li>
             </ul>

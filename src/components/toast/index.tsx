@@ -10,7 +10,8 @@ export default function Toast({ message, isToastOpen, handleCloseToast }: {
 
     useEffect(() => {
         if (isToastOpen) {
-            setTimeout(handleCloseToast, 4000)
+            const toastScreenTimeInMilliseconds = 4000
+            setTimeout(handleCloseToast, toastScreenTimeInMilliseconds)
         }
     }, [isToastOpen, handleCloseToast])
 
