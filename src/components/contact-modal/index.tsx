@@ -1,9 +1,9 @@
+import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Close, Email, LinkedIn } from '@mui/icons-material'
 import { Toast } from 'components'
 import { ContactModalProps } from 'types'
 import './style.scss'
-import { useState } from 'react'
 
 export default function ContactModal({ isModalOpen, handleClickCloseModal }: ContactModalProps) {
     const [isToastOpen, setIsToastOpen] = useState<boolean>(false)
