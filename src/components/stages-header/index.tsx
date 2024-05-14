@@ -1,9 +1,9 @@
 import { useContext } from 'react'
 import { useTranslation } from 'react-i18next'
+import { useMediaQuery } from '@mui/material'
 import { StageContext } from 'context'
 import { StageTypes } from 'types'
 import './style.scss'
-import { useMediaQuery } from '@mui/material'
 
 export default function StagesHeader() {
     const { t } = useTranslation()
