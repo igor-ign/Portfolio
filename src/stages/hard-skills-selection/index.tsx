@@ -1,6 +1,6 @@
+import { useTranslation } from 'react-i18next'
 import { CheckboxForm } from 'components'
 import './style.scss'
-import { useTranslation } from 'react-i18next'
 
 export default function HardSkillsSelection() {
     const { t } = useTranslation()

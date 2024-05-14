@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import { CheckboxFormProps } from 'types'
-import './style.scss'
-import Button from 'components/button';
 import { useTranslation } from 'react-i18next';
+import { CheckboxFormProps } from 'types'
+import Button from 'components/button';
+import './style.scss'
 
 export default function CheckboxForm({ options, stageToRedirect }: CheckboxFormProps) {
     const [selectedOptions, setSelectedOptions] = useState<string[]>([]);

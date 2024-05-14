@@ -1,10 +1,10 @@
+import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { GitHub, PrecisionManufacturing, Star, StarBorder } from '@mui/icons-material'
+import { ContactModal } from 'components'
 import { TECHNICAL_SKILLS, PROJECTS } from '../../constants'
 import { SkillLevelTypes } from 'types'
 import './style.scss'
-import { useState } from 'react'
-import { ContactModal } from 'components'
 
 export default function ResultSection() {
     const [isContactModalOpen, setIsContactModalOpen] = useState<boolean>(false)
