@@ -11,8 +11,8 @@ import ReduxIcon from './redux.png'
 import SassIcon from './sass.png'
 import StyledComponentsIcon from './styled.png'
 import TypescriptIcon from './typescript.png'
-import PortifolioFirstImage from './portifolio.jpg'
-import PortifolioSecondImage from './portifolio2.jpg'
+import PortfolioFirstImage from './portfolio.jpg'
+import PortfolioSecondImage from './portfolio2.jpg'
 import MazeCarImage from './mazecars.jpg'
 import MazeMotorcycleImage from './mazemotorcycle.jpg'
 
@@ -69,13 +69,13 @@ export const IMAGES = {
         alt: 'Typescript Icon',
         image: TypescriptIcon
     },
-    PORTIFOLIO_FIRST_IMAGE: {
-        alt: 'Portifolio Project',
-        image: PortifolioFirstImage
+    PORTFOLIO_FIRST_IMAGE: {
+        alt: 'Portfolio Project',
+        image: PortfolioFirstImage
     },
-    PORTIFOLIO_SECOND_IMAGE: {
-        alt: 'Portifolio Project',
-        image: PortifolioSecondImage
+    PORTFOLIO_SECOND_IMAGE: {
+        alt: 'Portfolio Project',
+        image: PortfolioSecondImage
     },
     MAZE_CARS_IMAGE: {
         alt: 'Maze Car Project',
