@@ -7,7 +7,7 @@ import {
 import { PortfolioStagesConstantProps } from "types";
 
 
-export const PORTIFOLIO_STAGES: PortfolioStagesConstantProps = {
+export const PORTFOLIO_STAGES: PortfolioStagesConstantProps = {
     language: <LanguageSelection />,
     "soft-skills": <SoftSkillsSelection />,
     "hard-skills": <HardSkillsSelection />,

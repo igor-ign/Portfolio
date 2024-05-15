@@ -1,7 +1,7 @@
 export const TRANSLATION_RESOURCES = {
     en: {
       translation: {
-        "portifolio-title": "Igor's Portifolio",
+        "portfolio-title": "Igor's Portfolio",
         "language-selection-header-stage": "Language",
         "language-selection-title": "Please select your preferred language from the options below.",
         "soft-skills-selection-header-stage": "Soft Skills",
@@ -34,7 +34,7 @@ export const TRANSLATION_RESOURCES = {
     },
     pt: {
       translation: {
-        "portifolio-title": "Portifolio do Igor",
+        "portfolio-title": "Portfolio do Igor",
         "language-selection-header-stage": "Linguagem",
         "language-selection-title": "Por favor selecione a linguagem de sua preferência nas opções abaixo.",
         "soft-skills-selection-header-stage": "Soft Skills",
