@@ -12,7 +12,8 @@ const {
     STYLED_COMPONENTS_ICON,
     JAVASCRIPT_ICON,
     HTML_ICON,
-    CSS_ICON
+    CSS_ICON,
+    TAILWIND_CSS_ICON
 } = IMAGES
 
 export const TECHNICAL_SKILLS: TechnicalSkillsProps[] = [
@@ -55,6 +56,11 @@ export const TECHNICAL_SKILLS: TechnicalSkillsProps[] = [
         name: 'Styled Components',
         technologyIcon: <img src={STYLED_COMPONENTS_ICON.image} alt={STYLED_COMPONENTS_ICON.alt} className="technology-icon"/>,
         skillLevel: 'basic-skill-level',
+    },
+    {
+        name: 'Tailwind CSS',
+        technologyIcon: <img src={TAILWIND_CSS_ICON.image} alt={TAILWIND_CSS_ICON.alt} className="technology-icon"/>,
+        skillLevel: 'basic-skill-level'
     },
     {
         name: 'Javascript',

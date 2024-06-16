@@ -15,6 +15,7 @@ import PortfolioFirstImage from './portfolio.jpg'
 import PortfolioSecondImage from './portfolio2.jpg'
 import MazeCarImage from './mazecars.jpg'
 import MazeMotorcycleImage from './mazemotorcycle.jpg'
+import TalwindCssIcon from './tailwind-css.jpg'
 
 export const IMAGES = {
     BRAZIL_FLAG: {
@@ -64,6 +65,10 @@ export const IMAGES = {
     STYLED_COMPONENTS_ICON: {
         alt: 'Styled Components Icon',
         image: StyledComponentsIcon
+    },
+    TAILWIND_CSS_ICON: {
+        alt: 'Tailwind CSS Icon',
+        image: TalwindCssIcon
     },
     TYPESCRIPT_ICON: {
         alt: 'Typescript Icon',
