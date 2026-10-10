@@ -2,8 +2,6 @@ import { IMAGES } from "assets";
 import { TechnicalSkillsProps } from "types";
 
 const {  
-    DOCKER_ICON,
-    JENKINS_ICON,
     NEXTJS_ICON,
     REACTJS_ICON,
     TYPESCRIPT_ICON,
@@ -13,44 +11,46 @@ const {
     JAVASCRIPT_ICON,
     HTML_ICON,
     CSS_ICON,
-    TAILWIND_CSS_ICON
+    TAILWIND_CSS_ICON,
+    ZUSTAND_ICON,
+    ELECTRON_ICON
 } = IMAGES
 
 export const TECHNICAL_SKILLS: TechnicalSkillsProps[] = [
     {
-        name: 'Docker',
-        technologyIcon: <img src={DOCKER_ICON.image} alt={DOCKER_ICON.alt} className="technology-icon"/>,
-        skillLevel: 'basic-skill-level',
-    },
-    {
-        name: 'Jenkins',
-        technologyIcon: <img src={JENKINS_ICON.image} alt={JENKINS_ICON.alt} className="technology-icon"/>,
-        skillLevel: 'basic-skill-level',
-    },
-    {
         name: 'NextJS',
         technologyIcon: <img src={NEXTJS_ICON.image} alt={NEXTJS_ICON.alt} className="technology-icon"/>,
-        skillLevel: 'basic-skill-level',
+        skillLevel: 'intermediate-skill-level',
     },
     {
         name: 'ReactJS',
         technologyIcon: <img src={REACTJS_ICON.image} alt={REACTJS_ICON.alt} className="technology-icon"/>,
+        skillLevel: 'expert-skill-level',
+    },
+    {
+        name: 'Electron',
+        technologyIcon: <img src={ELECTRON_ICON.image} alt={ELECTRON_ICON.alt} className="technology-icon"/>,
+        skillLevel: 'intermediate-skill-level',
+    },
+    {
+        name: 'Zustand',
+        technologyIcon: <img src={ZUSTAND_ICON.image} alt={ZUSTAND_ICON.alt} className="technology-icon"/>,
         skillLevel: 'intermediate-skill-level',
     },
     {
         name: 'Typescript',
         technologyIcon: <img src={TYPESCRIPT_ICON.image} alt={TYPESCRIPT_ICON.alt} className="technology-icon"/>,
-        skillLevel: 'intermediate-skill-level',
+        skillLevel: 'expert-skill-level',
     },
     {
         name: 'SASS',
         technologyIcon: <img src={SASS_ICON.image} alt={SASS_ICON.alt} className="technology-icon"/>,
-        skillLevel: 'basic-skill-level',
+        skillLevel: 'intermediate-skill-level',
     },
     {
         name: 'Redux',
         technologyIcon: <img src={REDUX_ICON.image} alt={REDUX_ICON.alt} className="technology-icon"/>,
-        skillLevel: 'basic-skill-level',
+        skillLevel: 'intermediate-skill-level',
     },
     {
         name: 'Styled Components',
@@ -60,21 +60,21 @@ export const TECHNICAL_SKILLS: TechnicalSkillsProps[] = [
     {
         name: 'Tailwind CSS',
         technologyIcon: <img src={TAILWIND_CSS_ICON.image} alt={TAILWIND_CSS_ICON.alt} className="technology-icon"/>,
-        skillLevel: 'basic-skill-level'
+        skillLevel: 'intermediate-skill-level'
     },
     {
         name: 'Javascript',
         technologyIcon: <img src={JAVASCRIPT_ICON.image} alt={JAVASCRIPT_ICON.alt} className="technology-icon"/>,
-        skillLevel: 'intermediate-skill-level',
+        skillLevel: 'expert-skill-level',
     },
     {
         name: 'HTML',
         technologyIcon: <img src={HTML_ICON.image} alt={HTML_ICON.alt} className="technology-icon"/>,
-        skillLevel: 'intermediate-skill-level',
+        skillLevel: 'expert-skill-level',
     },
     {
         name: 'CSS',
         technologyIcon: <img src={CSS_ICON.image} alt={CSS_ICON.alt} className="technology-icon"/>,
-        skillLevel: 'intermediate-skill-level',
+        skillLevel: 'expert-skill-level',
     }
 ]

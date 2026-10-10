@@ -10,16 +10,15 @@ export default function HardSkillsSelection() {
         <CheckboxForm 
         options={
             [
+                'ReactJS', 
+                'Electron',
+                'Zustand',
+                'NextJS', 
                 'HTML', 
                 'CSS', 
                 'Javascript', 
-                'ReactJS', 
                 'SASS', 
                 'Typescript', 
-                'NextJS', 
-                'CI/CD', 
-                'Jenkins', 
-                'Docker', 
                 'Redux', 
                 'Styled Components'
             ]

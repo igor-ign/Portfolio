@@ -16,6 +16,8 @@ import PortfolioSecondImage from './portfolio2.jpg'
 import MazeCarImage from './mazecars.jpg'
 import MazeMotorcycleImage from './mazemotorcycle.jpg'
 import TalwindCssIcon from './tailwind-css.jpg'
+import ElectronIcon from './electron.svg'
+import ZustandIcon from './zustand.jpeg'
 
 export const IMAGES = {
     BRAZIL_FLAG: {
@@ -26,52 +28,52 @@ export const IMAGES = {
         alt: 'USA Flag',
         image: USAFlag
     },
+    ELECTRON_ICON: {
+        alt: 'Electron',
+        image: ElectronIcon,    
+    },
+    ZUSTAND_ICON: {
+        alt: 'Zustand',
+        image: ZustandIcon,    
+    },
     CSS_ICON: {
-        alt: 'CSS Icon',
+        alt: 'CSS',
         image: CSSIcon,
     },
-    DOCKER_ICON: {
-        alt: 'Docker Icon',
-        image: DockerIcon
-    },
     HTML_ICON: {
-        alt: 'HTML Icon',
+        alt: 'HTML',
         image: HTMLIcon
     },
-    JENKINS_ICON: {
-        alt: 'Jenkins Icon',
-        image: JenkinsIcon
-    },
     JAVASCRIPT_ICON: {
-        alt: 'Javascript Icon',
+        alt: 'Javascript',
         image: JavascriptIcon
     },
     NEXTJS_ICON: {
-        alt: 'NextJS Icon',
+        alt: 'NextJS',
         image: NextJsIcon
     },
     REACTJS_ICON: {
-        alt: 'ReactJS Icon',
+        alt: 'ReactJS',
         image: ReactJsIcon
     },
     REDUX_ICON: {
-        alt: 'Redux Icon',
+        alt: 'Redux',
         image: ReduxIcon
     },
     SASS_ICON: {
-        alt: 'SASS Icon',
+        alt: 'SASS',
         image: SassIcon
     },
     STYLED_COMPONENTS_ICON: {
-        alt: 'Styled Components Icon',
+        alt: 'Styled Components',
         image: StyledComponentsIcon
     },
     TAILWIND_CSS_ICON: {
-        alt: 'Tailwind CSS Icon',
+        alt: 'Tailwind CSS',
         image: TalwindCssIcon
     },
     TYPESCRIPT_ICON: {
-        alt: 'Typescript Icon',
+        alt: 'Typescript',
         image: TypescriptIcon
     },
     PORTFOLIO_FIRST_IMAGE: {
